@@ -4,5 +4,6 @@ version: 1.0.0
 dependencies:
   - name: argo-cd
     version: 5.46.8
-    namespaceOverride: argo
+    #namespaceOverride: argo
+    namespace: argo
     repository: https://argoproj.github.io/argo-helm
